@@ -1,0 +1,25 @@
+<html>
+    <head>
+    <title>
+        Guess The Number
+    </title>
+    <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Guess The Number</h1>
+            <p>Try to guess the number 1 - 100. We will tell you if the number is higher or lower than your original guess.</p>
+            <div class="game">
+                <input type="number" id="guessfeild" class="guessfeild" placeholder="Guess Here">
+                <button id="submitguess" class="submitguess">Submit</button>
+            </div>
+            <div class="result">
+                <p id="guesses"></p>
+                <p id="lastresult"></p>
+                <p id="loworhigh"></p>
+            </div>
+            <button id="resetbutton" class="resetbutton">Start New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
